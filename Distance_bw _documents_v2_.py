@@ -66,3 +66,9 @@ def main():
         sorted_word_list2 = word_frequencies(filename_2)
         distance = vector_angle(sorted_word_list1, sorted_word_list2)
         print("The distance betweem the documents is: %0.6f (radians)", %distance)
+                            
+#initiater
+if __name__=="__main__":
+    import profile
+    profile.run("main()")                            
+                            
